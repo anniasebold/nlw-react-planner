@@ -13,7 +13,7 @@ export function Guests() {
               jessica.white@mail.com
             </span>
           </div>
-          <CircleDashed className="text-zinc-400 size-5 shrink-0"/>
+          <CircleDashed className="text-zinc-400 size-5 shrink-0" />
         </div>
 
         <div className="flex items-center justify-between gap-4">
@@ -23,7 +23,7 @@ export function Guests() {
               mabi.black@mail.com
             </span>
           </div>
-          <CircleDashed className="text-zinc-400 size-5 shrink-0"/>
+          <CircleDashed className="text-zinc-400 size-5 shrink-0" />
         </div>
       </div>
 

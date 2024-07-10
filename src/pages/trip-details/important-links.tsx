@@ -13,7 +13,7 @@ export function ImportantLinks() {
               https://www.airbnb.com.br/rooms/10470001234578910
             </a>
           </div>
-          <Link2 className="text-zinc-400 size-5 shrink-0"/>
+          <Link2 className="text-zinc-400 size-5 shrink-0" />
         </div>
 
         <div className="flex items-center justify-between gap-4">
@@ -23,7 +23,7 @@ export function ImportantLinks() {
               https://www.notion.com/pages/1047000112354648336?adults=13
             </a>
           </div>
-          <Link2 className="text-zinc-400 size-5 shrink-0"/>
+          <Link2 className="text-zinc-400 size-5 shrink-0" />
         </div>
       </div>
 

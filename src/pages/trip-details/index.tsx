@@ -10,11 +10,11 @@ import { Button } from "../../components/button";
 export function TripDetailsPage() {
   const [isCreateActivityModalOpen, setIsCreateActivityModalOpen] = useState(false);
 
-  function openCreateActivityModalOpen() {
+  function openCreateActivityModal() {
     setIsCreateActivityModalOpen(true);
   }
 
-  function closeCreateActivityModalOpen() {
+  function closeCreateActivityModal() {
     setIsCreateActivityModalOpen(false);
   }
 
@@ -26,7 +26,7 @@ export function TripDetailsPage() {
         <div className="flex-1 space-y-6">
           <div className="flex items-center justify-between">
             <h2 className="text-3xl font-semibold">Atividades</h2>
-            <Button onClick={openCreateActivityModalOpen} variant="primary" size="default">
+            <Button onClick={openCreateActivityModal} variant="primary" size="default">
               Cadastrar atividade
               <Plus className="size-5" />
             </Button>
@@ -43,7 +43,9 @@ export function TripDetailsPage() {
       </main>
 
       {isCreateActivityModalOpen && (
-        <CreateActivityModal closeCreateActivityModalOpen={closeCreateActivityModalOpen} />
+        <CreateActivityModal
+          closeCreateActivityModal={closeCreateActivityModal}
+        />
       )}
     </div>
   )
